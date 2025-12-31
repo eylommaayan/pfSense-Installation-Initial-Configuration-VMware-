@@ -26,6 +26,8 @@
 ### 💾 הקצאת משאבים (RAM / CPU / Disk
 <img width="539" height="551" alt="image" src="https://github.com/user-attachments/assets/692603d4-5ff6-4317-865e-e1101f10dcc5" />
 <img width="449" height="424" alt="image" src="https://github.com/user-attachments/assets/43fbb38c-14c1-45b7-bba4-f9928bbe6496" />
+<img width="434" height="422" alt="image" src="https://github.com/user-attachments/assets/6258763c-72a7-4aff-a6c7-ff1378bab71b" />
+
 
 )
 
@@ -47,6 +49,11 @@
 |
 | NAT       | WAN   | חיבור לאינטרנט דרך המחשב המארח |
 | Host-Only | LAN   | רשת פנימית מאובטחת לניהול      |
+<img width="754" height="698" alt="image" src="https://github.com/user-attachments/assets/46f772ea-efda-4b97-bbc6-a6749fe072b8" />
+<img width="744" height="465" alt="image" src="https://github.com/user-attachments/assets/3c0b7bb6-6062-4138-a03f-4d3d7d37126f" />
+
+<img width="441" height="393" alt="image" src="https://github.com/user-attachments/assets/b235d722-8369-462f-bd4d-59a0139d1d33" />
+
 
 ➡️ כך pfSense:
 
@@ -59,20 +66,30 @@
 ### 📀 אתחול מה־ISO
 
 הפעלנו את ה־VM עם קובץ ההתקנה של pfSense.
-בחרנו **Boot Multi User** – מצב אתחול רגיל למערכת.
+בחרנו **Boot Multi User** – מצב אתחול רגיל למערכת
+<img width="927" height="565" alt="image" src="https://github.com/user-attachments/assets/e0eb2bc3-45fd-437f-a79b-45b708f6f1eb" />
+.
 
 💡 אין צורך בשינויים מתקדמים בשלב זה.
 
 ---
 
 ### 📜 אישור רישיון
+<img width="779" height="477" alt="image" src="https://github.com/user-attachments/assets/80594ed6-b64d-424c-98d9-772a60728c86" />
+
 
 אישרנו את תנאי השימוש של pfSense.
 זהו שלב פורמלי לפני התקנת מערכת הפעלה.
 
 ---
 
-### ⚙️ בחירת Install pfSense
+### ⚙️ בחירת 
+<img width="803" height="490" alt="image" src="https://github.com/user-attachments/assets/3ac34819-db24-45c8-a2eb-c79d49de31fc" />
+<img width="832" height="448" alt="image" src="https://github.com/user-attachments/assets/6649a475-56c2-4bfe-a8c1-d1664a1258ae" />
+
+<img width="742" height="500" alt="image" src="https://github.com/user-attachments/assets/b45fbfe9-35a2-4120-bdb3-7a841621897e" />
+
+Install pfSense
 
 בחרנו באפשרות:
 
@@ -100,6 +117,7 @@ Continue with default keymap
 ### 🗂️ חלוקת דיסק (Partitioning)
 
 בחרנו:
+<img width="802" height="462" alt="image" src="https://github.com/user-attachments/assets/adc42f6c-d77d-4f70-9769-8b5bf17941a5" />
 
 ```
 Auto (UFS)
@@ -115,6 +133,8 @@ Auto (UFS)
 ---
 
 ### ⏳ התקנה בפועל
+<img width="763" height="475" alt="image" src="https://github.com/user-attachments/assets/9c23874e-9f76-4c7a-ae66-227d647639f6" />
+
 
 בשלב זה:
 
